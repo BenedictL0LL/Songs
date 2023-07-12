@@ -57,7 +57,7 @@ public class DBhelper {
         //we use ContentValues object to store the values for the db operation
         ContentValues values = new ContentValues();
         //store the column name as key and the title as value
-        values.put(COLUMN_SONG, Songs);
+        values.put(COLUMN_SONG, song);
         //store the column name as key and the singer as value
         values.put(COLUMN_SINGER, singers);
         //store the column name as key and the year as value
@@ -93,7 +93,7 @@ public class DBhelper {
             cursor.close();
             db.close();
 
-            return Songs;
+            return song;
     }
 
 }

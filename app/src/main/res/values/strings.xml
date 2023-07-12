@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Song</string>
+    <string name="btnShowAll">show</string>
+    <string name="back">back</string>
+    <string name="songIDt">Title\n</string>
+    <string name="songtitle">Song\n</string>
+    <string name="singers">singers\n\n</string>
+    <string name="year">year\n</string>
+    <string name="stars">stars\n</string>
+    <string name="btnUpdate">Update\n\n</string>
+    <string name="btnDel">delete</string>
+    <string name="btnCancel">cancel\n</string>
 </resources>

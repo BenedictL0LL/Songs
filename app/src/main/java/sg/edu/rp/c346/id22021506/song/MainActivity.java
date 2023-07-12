@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.RadioButton;
 import android.widget.RadioGroup;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         btnGetSongs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Songs.class);
+                Intent intent = new Intent(MainActivity.this, song.class);
                 startActivity(intent);
             }
         });
